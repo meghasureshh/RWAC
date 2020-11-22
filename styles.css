@@ -1,0 +1,175 @@
+a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+body{
+  margin: 0vw;
+  padding: 0vw;
+  background-color: rgb(255, 255, 255);
+}
+.nav-bar{
+  background: #43CCB3;
+  display: grid;
+  grid-template-columns: 10vw auto;
+  grid-gap: 30vw;
+  margin: auto;
+  width: 100%;
+  height: 3vw;
+}
+
+.nav-bar .logo{
+  width: 100%;
+  padding: .6vw;
+  padding-left: 3vw;
+}
+.nav-bar .logo img{
+  width: 25%;
+}
+
+.nav-bar .links-box{
+  display: grid;
+  grid-template-columns: 5vw 5vw 5vw;
+  grid-gap: 1vw;
+}
+.nav-bar .links-box .link-item{
+  margin: auto;
+  margin-right: 3vw;
+  display: flex;
+}
+
+.nav-bar .links-box .link-item h1{
+  font-size: 1vw;
+  color: #ffffff;
+}
+
+.content{
+  background: #ffffff;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 1vw;
+  margin: auto;
+  width: 100%;
+}
+
+.intro{
+  background: #ffffff;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 1vw;
+  margin: auto;
+  margin-left: 20vw;
+  width: 100%;
+}
+
+.introleft .resumeandsm{
+  margin: auto;
+  margin-left: .5vw;
+  display: flex;
+}
+
+.footer{
+  background: #43CCB3;
+  height: 20vw;
+  margin: auto;
+  margin-top: 2vw;
+  width: 100%;
+
+}
+/* --------------------------------------------------------responsive code here------------------------------------- */
+@media only screen and (max-width: 600px) {
+ .fruit-box{
+  margin: auto;
+  width: 100%;
+  margin-top: 2vw;
+}
+.fruit-box .heading h2{
+  font-size: 5vw;
+}
+
+.fruit-card-box{
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 1vw;
+  margin: auto;
+}
+
+.fruit-card-box .fruit-card{
+   width: 80%;
+   border: solid 1px grey;
+   margin: auto;
+   margin-bottom: 5vw;
+}
+
+.fruit-card-box .fruit-card img{
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+.fruit-card-box .fruit-card .name-f{
+  display: block;
+  margin: auto;
+}
+.fruit-card-box .fruit-card .name-f h6{
+  text-align: center;
+  font-size:3vw;
+  padding: 0vw;
+  margin: 0vw;
+  margin-bottom: 3vw;
+}
+
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+  .fruit-box{
+    margin: auto;
+    width: 100%;
+    margin-top: 2vw;
+  }
+  .fruit-box .heading h2{
+    font-size: 3vw;
+  }
+  
+  .fruit-card-box{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1vw;
+    margin: auto;
+  }
+  
+  .fruit-card-box .fruit-card{
+     width: 80%;
+     border: solid 1px grey;
+     margin: auto;
+  }
+  
+  .fruit-card-box .fruit-card img{
+    display: block;
+    margin: auto;
+    width: 70%;
+  }
+  .fruit-card-box .fruit-card .name-f{
+    display: block;
+    margin: auto;
+  }
+  .fruit-card-box .fruit-card .name-f h6{
+    text-align: center;
+    font-size: 2vw;
+  }
+  
+}
+
+@media only screen and (min-width: 1200px){
+     body{
+        
+    }   
+} 
+
+
