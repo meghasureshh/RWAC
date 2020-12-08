@@ -1,175 +1,270 @@
-a{
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-}
-
-a:hover{
-  text-decoration: underline;
-}
-
 body{
-  margin: 0vw;
-  padding: 0vw;
-  background-color: rgb(255, 255, 255);
+    margin:auto;
+    font-family: 'Open Sans', sans-serif;
 }
+
 .nav-bar{
-  background: #43CCB3;
-  display: grid;
-  grid-template-columns: 10vw auto;
-  grid-gap: 30vw;
-  margin: auto;
-  width: 100%;
-  height: 3vw;
-}
-
-.nav-bar .logo{
-  width: 100%;
-  padding: .6vw;
-  padding-left: 3vw;
-}
-.nav-bar .logo img{
-  width: 25%;
-}
-
-.nav-bar .links-box{
-  display: grid;
-  grid-template-columns: 5vw 5vw 5vw;
-  grid-gap: 1vw;
-}
-.nav-bar .links-box .link-item{
-  margin: auto;
-  margin-right: 3vw;
-  display: flex;
-}
-
-.nav-bar .links-box .link-item h1{
-  font-size: 1vw;
-  color: #ffffff;
-}
-
-.content{
-  background: #ffffff;
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 1vw;
-  margin: auto;
-  width: 100%;
-}
-
-.intro{
-  background: #ffffff;
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 1vw;
-  margin: auto;
-  margin-left: 20vw;
-  width: 100%;
-}
-
-.introleft .resumeandsm{
-  margin: auto;
-  margin-left: .5vw;
-  display: flex;
-}
-
-.footer{
-  background: #43CCB3;
-  height: 20vw;
-  margin: auto;
-  margin-top: 2vw;
-  width: 100%;
-
-}
-/* --------------------------------------------------------responsive code here------------------------------------- */
-@media only screen and (max-width: 600px) {
- .fruit-box{
-  margin: auto;
-  width: 100%;
-  margin-top: 2vw;
-}
-.fruit-box .heading h2{
-  font-size: 5vw;
-}
-
-.fruit-card-box{
-  width: 100%;
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 1vw;
-  margin: auto;
-}
-
-.fruit-card-box .fruit-card{
-   width: 80%;
-   border: solid 1px grey;
-   margin: auto;
-   margin-bottom: 5vw;
-}
-
-.fruit-card-box .fruit-card img{
-  display: block;
-  margin: auto;
-  width: 70%;
-}
-.fruit-card-box .fruit-card .name-f{
-  display: block;
-  margin: auto;
-}
-.fruit-card-box .fruit-card .name-f h6{
-  text-align: center;
-  font-size:3vw;
-  padding: 0vw;
-  margin: 0vw;
-  margin-bottom: 3vw;
-}
-
-
-}
-
-@media only screen and (min-width: 600px) and (max-width: 1200px) {
-  .fruit-box{
+    background: #43CCB3;
+    display: grid;
+    grid-template-columns: 10vw auto;
+    grid-gap: 50vw;
     margin: auto;
     width: 100%;
-    margin-top: 2vw;
-  }
-  .fruit-box .heading h2{
-    font-size: 3vw;
+    height: 3vw;
+    justify-content: center;
   }
   
-  .fruit-card-box{
+
+  
+  .nav-bar .logo{
     width: 100%;
+    padding: .6vw;
+    padding-left: 3vw;
+  }
+  .nav-bar .logo img{
+    width: 25%;
+  }
+
+  
+  .nav-bar .links-box{
+    font-size: 0.5vw;
+    color: #ffffff;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 5vw 5vw 5vw;
+    grid-gap: 4vw;
+    margin: auto;
+    margin-right: 3vw;
+  }
+  
+   
+  a{
+    color: rgb(255, 255, 255);
+    text-decoration: none
+  }
+  
+  a:hover{
+    text-decoration: underline;
+  }
+
+  
+  .intro{
+    background: #ffffff;
+    display: grid;
+    grid-template-columns: auto auto;
     grid-gap: 1vw;
     margin: auto;
+    margin-top: 10vw;
+    width: 60vw;
   }
   
-  .fruit-card-box .fruit-card{
-     width: 80%;
-     border: solid 1px grey;
+  .introleft .resumeandsm{
+    margin: auto;
+    margin-left: .5vw;
+    display: flex;
+  }
+
+  .portfolio{
+    background: #ffffff;
+    margin: auto;
+    margin-top: 10vw;
+    width: 60vw;
+  }
+
+  .portfolio .heading{
+    width: 100%;
+  }
+
+
+  .portfolio .p1{
+    display: flex;
+    width: 100%;
+    margin-top: 8vw;
+  }
+
+
+  .portfolio .p2{
+    display: flex;
+    width: 100%;
+    margin-top: 8vw;
+  }
+
+  .portfolio .p3{
+    display: flex;
+    width: 100%;
+    margin-top: 8vw;
+  }
+
+  #pimg{
+      width: 60vw;
+      margin: auto;
+    }
+
+  #ptext{
+      width: 60vw;
+      margin: auto;
+    }
+
+  .seemore{
+      margin-left: 25vw;
+      margin-top: 6vw;
+    }
+
+.footer{
+     width: 100%;
+     background: #43CCB3;
+     height: 10vw;
      margin: auto;
+     margin-top: 8vw;
+      }
+
+    
+ .footer .logo img{
+    width: 2vw;
+    margin-left: 48.5vw;
+    margin-top: 1.5vw;
+ }
+  
+  
+  .footer .smicons{
+    margin: auto;
+    margin-top: 1.5vw;
+    justify-content: center;
+    display: flex;
   }
   
-  .fruit-card-box .fruit-card img{
-    display: block;
-    margin: auto;
-    width: 70%;
-  }
-  .fruit-card-box .fruit-card .name-f{
-    display: block;
-    margin: auto;
-  }
-  .fruit-card-box .fruit-card .name-f h6{
-    text-align: center;
-    font-size: 2vw;
+  /* --------------------------------------------------------responsive code here------------------------------------- */
+  @media only screen and (max-width: 600px) {
+      
+    .nav-bar{
+     display: inline-block;
+     height: max-content;
+    }
+    
+    
+    .nav-bar .logo{
+        width: 100%;
+        padding: .6vw;
+        padding-left: 45vw;
+      }
+      .nav-bar .logo img{
+        width: 10%;
+      }
+    
+      
+      .nav-bar .links-box{
+        visibility: hidden;
+        font-size: 0.5vw;
+        color: #ffffff;
+        display: grid;
+        grid-template-columns: 5vw 5vw 5vw;
+        grid-gap: 4vw;
+        margin: auto;
+        margin-right: 3vw;
+      }
+      
+  .introtext img {
+    margin-top: 40vw;
+    width: 100%;
+    justify-content: center;
   }
   
-}
+  .introleft .resumeandsm{
+    margin: auto;
+    margin-left: .5vw;
+    display: flex;
+  }
 
-@media only screen and (min-width: 1200px){
-     body{
-        
-    }   
-} 
+  .resumeandsm img{
+    margin: auto;
+    height: 90%;
+  }
+
+  .introimg{
+      visibility: hidden;
+  }
+
+  .portfolio{
+    background: #ffffff;
+    margin: auto;
+    margin-top: 10vw;
+    width: 60vw;
+    display: inline-block;
+    height: max-content;
+  }
+
+  .portfolio .heading{
+    display: inline-block;
+    width: max-content
+  }
 
 
+  .portfolio .p1{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin-top: 20vw;
+  }
+
+
+  .portfolio .p2{
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin-top: 20vw;
+  }
+
+  .portfolio .p3{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin-top: 20vw;
+  }
+
+  #pimg{
+      width: 60vw;
+      margin: auto;
+    }
+
+  #ptext{
+      width: 60vw;
+      margin: auto;
+    }
+
+  .seemore{
+      display: inline-block;
+      height: 1vw;
+      margin-left: 30vw;
+      margin-top: 6vw;
+    }
+
+.footer{
+  height: 5vw;
+  display: inline-block;
+  height: max-content;
+  }
+
+    
+ .footer .logo img{
+    width: 10vw;
+    margin-left: 44vw;
+    margin-top: 1.5vw;
+ }
+  
+  
+  .footer .smicons{
+    margin: auto;
+    margin-top: 1.5vw;
+    justify-content: center;
+    display: flex;
+  }
+  }
+   
+  
+  @media only screen and (min-width: 600px) and (max-width: 1200px) {
+  }
+    
+  
+  @media only screen and (min-width: 1200px){
+  }
+  
