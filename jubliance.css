@@ -1,0 +1,172 @@
+body{
+    margin:auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-bar{
+    background: #43CCB3;
+    display: grid;
+    grid-template-columns: 10vw auto;
+    grid-gap: 50vw;
+    margin: auto;
+    width: 100%;
+    height: 3vw;
+    justify-content: center;
+  }
+  
+  .nav-bar .logo{
+    width: 100%;
+    padding: .6vw;
+    padding-left: 3vw;
+  }
+  .nav-bar .logo img{
+    width: 25%;
+  }
+
+  
+  .nav-bar .links-box{
+    font-size: 0.5vw;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 5vw 5vw 5vw;
+    grid-gap: 4vw;
+    margin: auto;
+    margin-right: 3vw;
+  }
+  
+   
+  a{
+    color: rgb(255, 255, 255);
+    text-decoration: none
+  }
+  
+  a:hover{
+    text-decoration: underline;
+  }
+
+  .jubliance{
+    margin: auto;
+    width: 60vw;
+    
+  }
+
+  .jublianceheading{
+    margin-top: 6vw;
+    
+}
+
+.img1{
+  margin-top: 2vw;
+}
+
+.img2{
+  margin-top: 10vw;
+}
+
+
+  .footer{
+    width: 100%;
+    background: #43CCB3;
+    height: 10vw;
+    margin: auto;
+    margin-top: 8vw;
+     }
+
+   
+.footer .logo img{
+   width: 2vw;
+   margin-left: 48.5vw;
+   margin-top: 1.5vw;
+}
+ 
+ 
+ .footer .smicons{
+   margin: auto;
+   margin-top: 1.5vw;
+   justify-content: center;
+   display: flex;
+ }
+
+
+
+
+  /* --------------------------------------------------------responsive code here------------------------------------- */
+  @media only screen and (max-width: 600px) {
+      
+      .nav-bar .logo{
+        visibility: hidden;
+        width: 100%;
+        padding: .6vw;
+        padding-left: 10vw;
+
+      }
+      .nav-bar .logo img{
+        visibility: hidden;
+        width: 25%;
+      }
+    
+      
+      .nav-bar .links-box{
+        visibility: hidden;
+        font-size: 0.5vw;
+        color: #ffffff;
+        display: grid;
+        grid-template-columns: 5vw 5vw 5vw;
+        grid-gap: 4vw;
+        margin: auto;
+        margin-right: 3vw;
+      }
+      
+    
+      .jubliance{
+        margin: auto;
+        width: 100%;
+      }
+    
+      .jublianceheading{
+          margin-top: 6vw;
+      }
+    
+      .img1{
+        margin-top: 2vw;
+        width: 100%;
+      }
+    
+      .img2{
+        margin-top: 10vw;
+      }
+    
+    
+      .footer{
+        width: 100%;
+        background: #43CCB3;
+        height: 10vw;
+        margin: auto;
+        margin-top: 8vw;
+         }
+    
+       
+    .footer .logo img{
+       width: 5vw;
+       margin-left: 48.5vw;
+       margin-top: 1.5vw;
+    }
+     
+     
+     .footer .smicons{
+       margin: a;
+       margin-top: 1vw;
+       justify-content: center;
+       display: flex;
+     }
+
+
+}
+ 
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+}
+  
+
+@media only screen and (min-width: 1200px){
+}
