@@ -93,16 +93,19 @@ body{
   /* --------------------------------------------------------responsive code here------------------------------------- */
   @media only screen and (max-width: 600px) {
       
-      .nav-bar .logo{
-        visibility: hidden;
+    .nav-bar{
+     display: inline-block;
+     height: max-content;
+    }
+    
+    
+    .nav-bar .logo{
         width: 100%;
         padding: .6vw;
-        padding-left: 10vw;
-
+        padding-left: 45vw;
       }
       .nav-bar .logo img{
-        visibility: hidden;
-        width: 25%;
+        width: 10%;
       }
     
       
@@ -123,44 +126,51 @@ body{
         width: 100%;
       }
     
-      .jublianceheading{
-          margin-top: 6vw;
-      }
-    
-      .img1{
-        margin-top: 2vw;
-        width: 100%;
-      }
-    
-      .img2{
+      .jublianceheading img{
+        display: inline-block;
+        width: 90vw;
+        margin: auto;
         margin-top: 10vw;
+        justify-content:center;
+      }
+    
+      .img1 img{
+        margin-top: 15vw;
+        width: 90vw;
+        margin: auto;
+        justify-content:center;
+      }
+    
+      .img2 img{
+        margin-top: 15vw;
+        width: 90vw;
+        margin: auto;
+        justify-content:center;
       }
     
     
       .footer{
-        width: 100%;
-        background: #43CCB3;
-        height: 10vw;
-        margin: auto;
-        margin-top: 8vw;
-         }
-    
-       
-    .footer .logo img{
-       width: 5vw;
-       margin-left: 48.5vw;
-       margin-top: 1.5vw;
-    }
-     
-     
-     .footer .smicons{
-       margin: a;
-       margin-top: 1vw;
-       justify-content: center;
-       display: flex;
-     }
-
-
+        height: 5vw;
+        display: inline-block;
+        height: max-content;
+        }
+      
+          
+       .footer .logo img{
+          width: 10vw;
+          margin-left: 44vw;
+          margin-top: 1.5vw;
+       }
+        
+        
+        .footer .smicons{
+          margin: auto;
+          margin-top: 1.5vw;
+          justify-content: center;
+          display: flex;
+        }
+        
+         
 }
  
 
