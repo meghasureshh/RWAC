@@ -138,16 +138,17 @@ body{
     .nav-bar{
      display: inline-block;
      height: max-content;
+     width: 100%;
     }
     
     
     .nav-bar .logo{
-        width: 100%;
+        width: 10%;
         padding: .6vw;
         padding-left: 45vw;
       }
       .nav-bar .logo img{
-        width: 10%;
+        width: 100%;
       }
     
       
@@ -163,8 +164,8 @@ body{
       }
       
   .introtext img {
-    margin-top: 40vw;
-    width: 100%;
+    margin-top: 20vw;
+    width: 70vw;
     justify-content: center;
   }
   
@@ -183,26 +184,27 @@ body{
       visibility: hidden;
   }
 
-  .portfolio{
+  .portfolio {
     background: #ffffff;
     margin: auto;
-    margin-top: 10vw;
     width: 60vw;
     display: inline-block;
     height: max-content;
   }
 
-  .portfolio .heading{
+  .portfolio .heading img{
     display: inline-block;
-    width: max-content
+    width: 90vw;
+    margin: auto;
+    margin-top: 1vw;
+    justify-content:center;
   }
 
 
   .portfolio .p1{
     display: flex;
     flex-flow: row wrap;
-    width: 100%;
-    margin-top: 20vw;
+    margin-top: 10vw;
   }
 
 
@@ -210,25 +212,26 @@ body{
     display: flex;
     flex-flow: row wrap;
     flex-direction: column-reverse;
-    width: 100%;
-    margin-top: 20vw;
+    margin-top: 10vw;
   }
 
   .portfolio .p3{
     display: flex;
     flex-flow: row wrap;
-    width: 100%;
-    margin-top: 20vw;
+
+    margin-top: 10vw;
   }
 
-  #pimg{
-      width: 60vw;
+  #pimg img{
+      width: 90vw;
       margin: auto;
+      justify-content:center;
     }
 
-  #ptext{
-      width: 60vw;
+  #ptext img{
+      width: 90vw;
       margin: auto;
+      justify-content:center;
     }
 
   .seemore{
